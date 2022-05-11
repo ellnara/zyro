@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Website</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="logo">
+                <a href="">TIXLY</a>
+            </div>
+            <nav class="navbar">
+                <a href="">HOME</a>
+                <a href="">SHOP</a>
+                <a href="">ABOUT</a>
+                <a href="">INSIGHTS</a>
+                <a href="">CONTACT</a>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <a style="padding-left: 0;" href="">SHOPPING BAG</a>
+            </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="summary">
+                <h2>Shop Together</h2>
+                <p>We want your child to feel comfortable, loved and free. Our organic and fairtrade clothing ensures
+                    that your baby can play and be happy. </p>
+                <button>VIEW MORE</button>
+            </div>
+        </section>
+        <section id="explore">
+            <div class="title">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="cards">
+                <div class="cards-item"></div>
+                <div class="cards-item"></div>
+                <div class="cards-item"></div>
+            </div>
+        </section>
+        <section id="our-story">
+            <div class="summary">
+                <h2></h2>
+                <p></p>
+                <button></button>
+            </div>
+            <div class="photo">
+                <img src="./BACKGROUND.webp" alt="">
+
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="head"></div>
+            <div class="cards">
+                <div class="cards-item"></div>
+                <div class="cards-item"></div>
+                <div class="cards-item"></div>
+            </div>
+            <button></button>
+        </section>
+    </main>
+    <footer>
+        <div class="info"></div>
+        <form action=""></form>
+        <div class="media"></div>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+  .navigation {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    background-color: white;
+  }
+a {
+    color: black;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    border-bottom: 1px solid black;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+#intro div{
+    color: black;
+    background-image: url("./BACKGROUND.webp");
+}
+
